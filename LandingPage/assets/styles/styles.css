@@ -7,6 +7,9 @@
     border: none;
     outline: none;
 }
+a{
+    color: unset;
+}
 /* header section */
 header{
     background-image: url('../images/hero.png');
@@ -89,9 +92,114 @@ nav .nav-item{
     font-size: 1.2rem;
 }
 /* header done  */
-p .heading{
+div.heading p{
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(54, 54, 54);
     text-align: center;
-    width: 100%;
+    padding: 25px 0px;
+}
+div.heading span{
+    font-weight: 600;
+}
+div.anchor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 10px auto;
+}
+div.anchor .list{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 300px;
+height: 70px;
+border-radius: 10px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 0px 20px;
+font-size: 22px;
+font-weight:400;
+border: 3px black;
+}
+div.anchor .list:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 10px inset;
+    /* transition: 0.5s  ease-out; */
+}
+div.contact{
+    background-color: rgb(255, 241, 247);
+    height: 60vh;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+div.contact .mobile_image img{
+max-width: 250px;
+}
+div.contact .form_content{
+    /* background-color: seagreen; */
+    width: 32%;
+    height: 80%;
+    margin-top: -10px;  
+    padding: 20px;
+}
+div.contact .form_content h2{
+    font-size: 42px;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.contact .form_content p{
+    margin-top: 10px;
+    font-size: 20px;
+    word-spacing: 0.5px;
+    line-height:25px;
+}
+div.form .radio_button{
+    width: 50%;
+    margin-top: 4%;
+    font-size: 23px; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.mail{
+    margin-top: 20px;
+}
+.mail input{
+    height: 40px;
+    width: 250px;
+    border:1px solid black;
+    
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.mail button{
+    height:40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(237,90,107);
+    color: white;
+}
+section{
+    margin-top: 20px;
+}
+section p{
+    opacity: 0.8;
+}
+.img_container{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+
+}
+.appStore,.playStore{
+    width:150px;
+    margin-top: 20px;
+}
 
